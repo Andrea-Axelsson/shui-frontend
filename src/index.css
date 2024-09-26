@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+}
+
+.background {
+  background: #19274a;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-container {
+  background: #fff;
+  max-width: 380px;
+  width: 100vw;
+  margin: 1.25em;
+  padding: 1.25rem;
+}
+
+.date {
+  font-family: "Fira Code", monospace;
+  font-size: 0.75rem;
+  margin-bottom: 0.625em;
+}
+
+.message {
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.add-post-btn {
+  width: 30px;
+  height: 30px;
+  background: #ef4343;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.add-post-btn:hover {
+  background: #b83535;
+  cursor: pointer;
+}
+
+.fa-pen {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.new-post-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25em;
+}
+
+.new-post-textarea {
+  padding: 15px;
+}
+
+.new-post-username {
+  background: #19274a;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 1.25em;
+}
+
+.new-post-button {
+  background: #b83535;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 1.25em;
+  width: 100%;
+}
+
+.update-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-post-textarea {
+  max-width: 380px;
+  width: 100vw;
+  margin: 0 1.25em;
+  padding: 1.25rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 1.25em;
+}
+.update-post-button {
+  background: #b83535;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+  color: #fff;
+  width: 70px;
+  cursor: pointer;
+}
+
+.fa-x {
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-btn {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin: 0 90%;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  color: red;
+  cursor: pointer;
+}
